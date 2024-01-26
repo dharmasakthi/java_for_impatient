@@ -82,18 +82,5 @@ public class MethodDemo {
             4. variable and function use camle case
             5. Class name start with upper Letter
          */
-
-        int i = 0;
-        System.out.println((-10)%(-3));
-
-        /*
-        1.4.3 Mathematical Methods
-            1. Math.pow(x, y) yields x^y
-            2. Math.sqrt(x)
-            3. Math.min and Math.max
-            4. Math class provides trigonometric and logarithmic functions as well as the constants Math.PI and Math.E
-            5.
-         */
-        System.out.println(Math.multiplyExact(1000000000, 3));
     }
 }
