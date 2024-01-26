@@ -1,0 +1,19 @@
+Java 9 introduces another way of working with Java
+The JShell program provides a “read-evaluate-print loop” (REPL) where you type a Java expression, JShell evaluates your input, prints the result, and waits for your next input.
+To start JShell, simply type "jshell" in a terminal window
+
+Not type System.out.println . JShell automatically prints the value of every expression that you enter
+1.Another useful feature is <TAB> completion
+2.By default, JShell imports the following packages:
+    java.io
+    java.math
+    java.net
+    java.nio.file
+    java.util
+    java.util.concurrent
+    java.util.function
+    java.util.prefs
+    java.util.regex
+    java.util.stream
+3. import using JShell search, press <Shift>+<Tab> and the I key and choose the import
+4. For exit type /exit and Enter, or simply Ctrl+D.
