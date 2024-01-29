@@ -32,11 +32,18 @@ public class InputAndOutput {
 
         //To read a password, you do not want to use the Scanner class since the input is visible in the terminal.
         // Instead, use the Console class:
-        Console terminal = System.console();
-        name = terminal.readLine("enter name");
-        char[] password = terminal.readPassword("enter password");
+//        Console terminal = System.console();
+//        name = terminal.readLine("enter name");
+//        char[] password = terminal.readPassword("enter password");
 
-        System.out.println(password);
+//        System.out.println(password);
+
+        /*
+        1.6.2 Formatted Output
+         */
+        System.out.printf("%+08.3f__", 1000.0 / 3.0);
+        //multiple parameters to printf
+        System.out.printf("Hello, %s. Next year, you'll be %2d.\n", name, age);
 
     }
 }
