@@ -1,6 +1,8 @@
 package ch01.sec01;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /*
@@ -67,33 +69,5 @@ public class ControlFlow {
             In Java, you cannot have local variables with the same name in overlapping scopes.
          */
 
-        /*
-        1.8 Arrays and Array Lists
-            collecting multiple items of the same type.
-            When you construct an array with the value.
-            • Arrays of numeric type (including char)
-            • Arrays of boolean are filled with new char ) operator, it is filled with a default are filled with zeroes. false .
-            • Arrays of objects are filled with null references.
-         */
-        int[] a = new int[10];
-        int[] b = {1, 2, 3};
-        b = new int[] {1,2,3,4};
-
-        /*
-        1.8.3 Array Lists
-         */
-        ArrayList<String> friends = new ArrayList<>();
-        // or new ArrayList<String>()
-        //Note the empty <> . The compiler infers the type parameter from the type of the variable.
-
-        friends = new ArrayList<>(List.of("sakthi", "dharma"));
-        friends.remove(0);
-        System.out.println(friends);
-
-        // List.of unmutable list
-        List list = List.of(new String("hi"));
-        list.add("sakthi");
-        list.remove(0);
-        System.out.println(list);
     }
 }
